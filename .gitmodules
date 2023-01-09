@@ -1,0 +1,3 @@
+[submodule "rF2SharedMemoryPlugin_Wine"]
+	path = rF2SharedMemoryPlugin_Wine
+	url = https://github.com/schlegp/rF2SharedMemoryMapPlugin_Wine
