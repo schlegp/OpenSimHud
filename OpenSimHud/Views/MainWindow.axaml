@@ -1,0 +1,37 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:OpenSimHud.ViewModels"
+        xmlns:conv="using:OpenSimHud.Converters"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="100" d:DesignHeight="100"
+        x:Class="OpenSimHud.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="OpenSimHudHud"
+        Background="Transparent"
+        TransparencyLevelHint="Transparent"
+        Width="{Binding WindowSize}"
+        Height="{Binding WindowSize}"
+        SystemDecorations="None"
+        Topmost="True">
+
+    <Window.Resources>
+        <conv:DistanceToOpacityConverter x:Key="OpacityConverter"></conv:DistanceToOpacityConverter>
+    </Window.Resources>
+    <Design.DataContext>
+        <vm:MainWindowViewModel />
+    </Design.DataContext>
+    
+    <Border BorderBrush="Black" BorderThickness="2">
+
+        <Canvas x:Name="RadarCanvas" Opacity="{Binding ClosestCarDistance}" >
+            <Canvas.RenderTransform>
+                <TransformGroup >
+                    <TranslateTransform X="{Binding CanvasX}" Y="{Binding CanvasY}"></TranslateTransform>
+                    <RotateTransform Angle="{Binding CanvasRotation}"></RotateTransform>
+                    <ScaleTransform ScaleX="{Binding CanvasScale}" ScaleY="{Binding CanvasScale}"></ScaleTransform>
+                </TransformGroup>
+            </Canvas.RenderTransform>
+        </Canvas>
+    </Border>
+</Window>
