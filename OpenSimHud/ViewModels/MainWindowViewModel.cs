@@ -1,4 +1,5 @@
-﻿using ReactiveUI;
+﻿using OpenSimHud.Basics.ViewModels;
+using ReactiveUI;
 
 namespace OpenSimHud.ViewModels;
 

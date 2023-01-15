@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OpenSimHud.Basics\OpenSimHud.Basics.csproj" />
+      <ProjectReference Include="..\rF2SMLib\rF2SMLib.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Views\PedalDisplay.axaml.cs">
+        <DependentUpon>PedalDisplay.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="0.10.18" />
+      <PackageReference Include="Avalonia.Diagnostics" Version="0.10.18" />
+      <PackageReference Include="Avalonia.ReactiveUI" Version="0.10.18" />
+      <PackageReference Include="XamlNameReferenceGenerator" Version="1.5.1" />
+    </ItemGroup>
+
+</Project>

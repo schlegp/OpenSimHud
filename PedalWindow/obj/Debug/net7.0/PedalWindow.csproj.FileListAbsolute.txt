@@ -1,0 +1,17 @@
+/home/phil/Development/OpenSimHud/PedalWindow/bin/Debug/net7.0/PedalWindow.deps.json
+/home/phil/Development/OpenSimHud/PedalWindow/bin/Debug/net7.0/PedalWindow.dll
+/home/phil/Development/OpenSimHud/PedalWindow/bin/Debug/net7.0/PedalWindow.pdb
+/home/phil/Development/OpenSimHud/PedalWindow/bin/Debug/net7.0/OpenSimHud.Basics.dll
+/home/phil/Development/OpenSimHud/PedalWindow/bin/Debug/net7.0/rF2SMLib.dll
+/home/phil/Development/OpenSimHud/PedalWindow/bin/Debug/net7.0/OpenSimHud.Basics.pdb
+/home/phil/Development/OpenSimHud/PedalWindow/bin/Debug/net7.0/rF2SMLib.pdb
+/home/phil/Development/OpenSimHud/PedalWindow/obj/Debug/net7.0/PedalWindow.csproj.AssemblyReference.cache
+/home/phil/Development/OpenSimHud/PedalWindow/obj/Debug/net7.0/PedalWindow.GeneratedMSBuildEditorConfig.editorconfig
+/home/phil/Development/OpenSimHud/PedalWindow/obj/Debug/net7.0/PedalWindow.AssemblyInfoInputs.cache
+/home/phil/Development/OpenSimHud/PedalWindow/obj/Debug/net7.0/PedalWindow.AssemblyInfo.cs
+/home/phil/Development/OpenSimHud/PedalWindow/obj/Debug/net7.0/PedalWindow.csproj.CoreCompileInputs.cache
+/home/phil/Development/OpenSimHud/PedalWindow/obj/Debug/net7.0/PedalWindow.csproj.CopyComplete
+/home/phil/Development/OpenSimHud/PedalWindow/obj/Debug/net7.0/PedalWindow.dll
+/home/phil/Development/OpenSimHud/PedalWindow/obj/Debug/net7.0/refint/PedalWindow.dll
+/home/phil/Development/OpenSimHud/PedalWindow/obj/Debug/net7.0/PedalWindow.pdb
+/home/phil/Development/OpenSimHud/PedalWindow/obj/Debug/net7.0/ref/PedalWindow.dll

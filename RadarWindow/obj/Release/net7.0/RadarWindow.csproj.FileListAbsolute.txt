@@ -1,0 +1,17 @@
+/home/phil/Development/OpenSimHud/RadarWindow/bin/Release/net7.0/RadarWindow.deps.json
+/home/phil/Development/OpenSimHud/RadarWindow/bin/Release/net7.0/RadarWindow.dll
+/home/phil/Development/OpenSimHud/RadarWindow/bin/Release/net7.0/RadarWindow.pdb
+/home/phil/Development/OpenSimHud/RadarWindow/bin/Release/net7.0/OpenSimHud.Basics.dll
+/home/phil/Development/OpenSimHud/RadarWindow/bin/Release/net7.0/rF2SMLib.dll
+/home/phil/Development/OpenSimHud/RadarWindow/bin/Release/net7.0/OpenSimHud.Basics.pdb
+/home/phil/Development/OpenSimHud/RadarWindow/bin/Release/net7.0/rF2SMLib.pdb
+/home/phil/Development/OpenSimHud/RadarWindow/obj/Release/net7.0/RadarWindow.csproj.AssemblyReference.cache
+/home/phil/Development/OpenSimHud/RadarWindow/obj/Release/net7.0/RadarWindow.GeneratedMSBuildEditorConfig.editorconfig
+/home/phil/Development/OpenSimHud/RadarWindow/obj/Release/net7.0/RadarWindow.AssemblyInfoInputs.cache
+/home/phil/Development/OpenSimHud/RadarWindow/obj/Release/net7.0/RadarWindow.AssemblyInfo.cs
+/home/phil/Development/OpenSimHud/RadarWindow/obj/Release/net7.0/RadarWindow.csproj.CoreCompileInputs.cache
+/home/phil/Development/OpenSimHud/RadarWindow/obj/Release/net7.0/RadarWindow.csproj.CopyComplete
+/home/phil/Development/OpenSimHud/RadarWindow/obj/Release/net7.0/RadarWindow.dll
+/home/phil/Development/OpenSimHud/RadarWindow/obj/Release/net7.0/refint/RadarWindow.dll
+/home/phil/Development/OpenSimHud/RadarWindow/obj/Release/net7.0/RadarWindow.pdb
+/home/phil/Development/OpenSimHud/RadarWindow/obj/Release/net7.0/ref/RadarWindow.dll

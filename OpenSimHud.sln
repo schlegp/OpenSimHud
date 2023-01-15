@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rF2SMLib", "rF2SMLib\rF2SML
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMemoryReader", "SharedMemoryReader\SharedMemoryReader.csproj", "{BCE067E4-0990-4535-A87C-FCDE605B28D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSimHud.Basics", "OpenSimHud.Basics\OpenSimHud.Basics.csproj", "{ADA10867-53B7-4DD8-AE7D-BA057AE95759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadarWindow", "RadarWindow\RadarWindow.csproj", "{6719B25D-1981-479E-ABBA-8EDF58AA4344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedalWindow", "PedalWindow\PedalWindow.csproj", "{AF69A583-F828-4180-8F8E-07FCE29D101A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{BCE067E4-0990-4535-A87C-FCDE605B28D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCE067E4-0990-4535-A87C-FCDE605B28D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCE067E4-0990-4535-A87C-FCDE605B28D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA10867-53B7-4DD8-AE7D-BA057AE95759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA10867-53B7-4DD8-AE7D-BA057AE95759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA10867-53B7-4DD8-AE7D-BA057AE95759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA10867-53B7-4DD8-AE7D-BA057AE95759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6719B25D-1981-479E-ABBA-8EDF58AA4344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6719B25D-1981-479E-ABBA-8EDF58AA4344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6719B25D-1981-479E-ABBA-8EDF58AA4344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6719B25D-1981-479E-ABBA-8EDF58AA4344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF69A583-F828-4180-8F8E-07FCE29D101A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF69A583-F828-4180-8F8E-07FCE29D101A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF69A583-F828-4180-8F8E-07FCE29D101A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF69A583-F828-4180-8F8E-07FCE29D101A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -16,9 +16,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Avalonia.ReactiveUI" Version="0.10.18" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.3-beta1" />
     <PackageReference Include="System.Text.Json" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenSimHud.Basics\OpenSimHud.Basics.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
         <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
         <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -9,8 +9,11 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <Folder Include="Converters" />
+        <Folder Include="Models" />
         <Folder Include="Models\" />
         <AvaloniaResource Include="Assets\**" />
+        <Folder Include="Utilities" />
         <None Remove=".gitignore" />
     </ItemGroup>
 
@@ -28,6 +31,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\OpenSimHud.Basics\OpenSimHud.Basics.csproj" />
+      <ProjectReference Include="..\PedalWindow\PedalWindow.csproj" />
+      <ProjectReference Include="..\RadarWindow\RadarWindow.csproj" />
       <ProjectReference Include="..\rF2SMLib\rF2SMLib.csproj" />
     </ItemGroup>
 </Project>

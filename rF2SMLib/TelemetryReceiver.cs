@@ -10,6 +10,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Bson;
+using OpenSimHud.Basics;
 using rF2SMLib.DTOs;
 using rF2SMLib.rFactor2Data;
 using rF2SMLib.Utils;
@@ -38,14 +39,6 @@ namespace rF2SMLib
 
         public (List<VehicleGPS>, PedalData) GetNextCarTelemetry(double scale = 1.0f)
         {
-            
-            //
-            // var receivedData = await Client.ReceiveAsync();
-            //
-            // using MemoryStream memoryStream = new  MemoryStream(receivedData.Buffer);
-            // using BsonDataReader reader = new BsonDataReader(memoryStream);
-            //
-            // var wrapper = serializer.Deserialize<VehicleWrapper>(reader);
             var wrapper = _provider.GetListOfAllCars();
             
             var gpsData = wrapper.Vehicles.Select(TelemetryToGps).ToList();

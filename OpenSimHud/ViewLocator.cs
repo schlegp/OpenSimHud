@@ -1,6 +1,7 @@
 using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
+using OpenSimHud.Basics.ViewModels;
 using OpenSimHud.ViewModels;
 
 namespace OpenSimHud;

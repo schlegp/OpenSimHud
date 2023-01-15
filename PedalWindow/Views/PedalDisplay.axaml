@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:PedalWindow.ViewModels"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="PedalWindow.Views.PedalDisplay"
+        Title="PedalDisplay"
+        Height="300"
+        Width="300"
+        Background="Transparent"
+        TransparencyLevelHint="Transparent"
+        Topmost="True">
+    <Window.DataContext >
+        <viewModels:PedalDisplayViewModel ></viewModels:PedalDisplayViewModel>
+    </Window.DataContext>
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="Red" Height="{Binding BrakeValue}" VerticalAlignment="Bottom"/>
+        <Rectangle Grid.Column="1" Fill="Green" Height="{Binding ThrottleValue}" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>

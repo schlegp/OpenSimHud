@@ -1,0 +1,10 @@
+/home/phil/Development/OpenSimHud/OpenSimHud.Basics/bin/Release/netstandard2.1/OpenSimHud.Basics.deps.json
+/home/phil/Development/OpenSimHud/OpenSimHud.Basics/bin/Release/netstandard2.1/OpenSimHud.Basics.dll
+/home/phil/Development/OpenSimHud/OpenSimHud.Basics/bin/Release/netstandard2.1/OpenSimHud.Basics.pdb
+/home/phil/Development/OpenSimHud/OpenSimHud.Basics/obj/Release/netstandard2.1/OpenSimHud.Basics.csproj.AssemblyReference.cache
+/home/phil/Development/OpenSimHud/OpenSimHud.Basics/obj/Release/netstandard2.1/OpenSimHud.Basics.GeneratedMSBuildEditorConfig.editorconfig
+/home/phil/Development/OpenSimHud/OpenSimHud.Basics/obj/Release/netstandard2.1/OpenSimHud.Basics.AssemblyInfoInputs.cache
+/home/phil/Development/OpenSimHud/OpenSimHud.Basics/obj/Release/netstandard2.1/OpenSimHud.Basics.AssemblyInfo.cs
+/home/phil/Development/OpenSimHud/OpenSimHud.Basics/obj/Release/netstandard2.1/OpenSimHud.Basics.csproj.CoreCompileInputs.cache
+/home/phil/Development/OpenSimHud/OpenSimHud.Basics/obj/Release/netstandard2.1/OpenSimHud.Basics.dll
+/home/phil/Development/OpenSimHud/OpenSimHud.Basics/obj/Release/netstandard2.1/OpenSimHud.Basics.pdb

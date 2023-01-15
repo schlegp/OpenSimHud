@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/phil/Development/OpenSimHud/OpenSimHud.Basics/OpenSimHud.Basics.csproj": {}
+  },
+  "projects": {
+    "/home/phil/Development/OpenSimHud/OpenSimHud.Basics/OpenSimHud.Basics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/phil/Development/OpenSimHud/OpenSimHud.Basics/OpenSimHud.Basics.csproj",
+        "projectName": "OpenSimHud.Basics",
+        "projectPath": "/home/phil/Development/OpenSimHud/OpenSimHud.Basics/OpenSimHud.Basics.csproj",
+        "packagesPath": "/home/phil/.nuget/packages/",
+        "outputPath": "/home/phil/Development/OpenSimHud/OpenSimHud.Basics/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/phil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "ReactiveUI": {
+              "target": "Package",
+              "version": "[13.2.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

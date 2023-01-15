@@ -17,7 +17,6 @@ namespace rF2SMLib
         public static MappedBuffer<rF2Scoring> _scoringBuffer;
         public static rF2Telemetry telemetry;
         public static rF2Scoring scoring;
-        public bool AllConnected = false;
 
         public TelemetryProvider()
         {
