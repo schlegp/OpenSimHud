@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:TireGripWindow.ViewModels"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="TireGripWindow.Views.TireGripDisplay"
+        Title="TireGripDisplay"
+        Height="300"
+        Width="300"
+        Background="Transparent"
+        TransparencyLevelHint="Transparent"
+        Topmost="True">
+    <Window.DataContext >
+        <viewModels:TireGripViewModel ></viewModels:TireGripViewModel>
+    </Window.DataContext>
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Rectangle Fill="Red" Height="{Binding TireGripFl}" VerticalAlignment="Bottom"/>
+        <Rectangle Grid.Row="0" Grid.Column="1" Fill="Green" Height="{Binding TireGripFr}" VerticalAlignment="Bottom"/>
+        <Rectangle Grid.Row="1" Grid.Column="0" Fill="Green" Height="{Binding TireGripRl}" VerticalAlignment="Bottom"/>
+        <Rectangle Grid.Row="1" Grid.Column="1" Fill="Green" Height="{Binding TireGripRr}" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>

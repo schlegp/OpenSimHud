@@ -20,4 +20,6 @@ public class PedalDisplayViewModel: ViewModelBase
         get => _brakeValue; 
         set => this.RaiseAndSetIfChanged(ref _brakeValue, value); 
     }
+
+    
 }

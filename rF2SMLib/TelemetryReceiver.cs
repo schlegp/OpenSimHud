@@ -37,7 +37,7 @@ namespace rF2SMLib
 
         public UdpClient Client { get; }
 
-        public (List<VehicleGPS>, PedalData) GetNextCarTelemetry(double scale = 1.0f)
+        public (List<VehicleGPS>, InputData) GetNextCarTelemetry(double scale = 1.0f)
         {
             var wrapper = _provider.GetListOfAllCars();
             
@@ -51,7 +51,7 @@ namespace rF2SMLib
             }
             _ = wrapper;
             _ = player;
-            return (gpsData, wrapper.PedalData);
+            return (gpsData, wrapper.InputData);
         }
 
         public VehicleGPS TelemetryToGps(VehicleTelemetryDto tele)

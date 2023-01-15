@@ -35,5 +35,6 @@
       <ProjectReference Include="..\PedalWindow\PedalWindow.csproj" />
       <ProjectReference Include="..\RadarWindow\RadarWindow.csproj" />
       <ProjectReference Include="..\rF2SMLib\rF2SMLib.csproj" />
+      <ProjectReference Include="..\TireGripWindow\TireGripWindow.csproj" />
     </ItemGroup>
 </Project>

@@ -10,11 +10,11 @@ namespace rF2SMLib.DTOs
         [DataMember]
         public List<VehicleTelemetryDto> Vehicles { get; set; }
 
-        [DataMember] public PedalData PedalData;
+        [DataMember] public InputData InputData;
     }
 
     [DataContract]
-    public class PedalData
+    public class InputData
     {
         [DataMember]
         public double Throttle;
@@ -24,5 +24,6 @@ namespace rF2SMLib.DTOs
         public double Clutch;
 
         [DataMember] public double SteeringAngle;
+        [DataMember] public double[] GripData = new []{0.0, 0.0, 0.0, 0.0 };
     }
 }

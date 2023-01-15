@@ -1,0 +1,17 @@
+/home/phil/Development/OpenSimHud/TireGripWindow/bin/Debug/net7.0/TireGripWindow.deps.json
+/home/phil/Development/OpenSimHud/TireGripWindow/bin/Debug/net7.0/TireGripWindow.dll
+/home/phil/Development/OpenSimHud/TireGripWindow/bin/Debug/net7.0/TireGripWindow.pdb
+/home/phil/Development/OpenSimHud/TireGripWindow/bin/Debug/net7.0/OpenSimHud.Basics.dll
+/home/phil/Development/OpenSimHud/TireGripWindow/bin/Debug/net7.0/rF2SMLib.dll
+/home/phil/Development/OpenSimHud/TireGripWindow/bin/Debug/net7.0/OpenSimHud.Basics.pdb
+/home/phil/Development/OpenSimHud/TireGripWindow/bin/Debug/net7.0/rF2SMLib.pdb
+/home/phil/Development/OpenSimHud/TireGripWindow/obj/Debug/net7.0/TireGripWindow.csproj.AssemblyReference.cache
+/home/phil/Development/OpenSimHud/TireGripWindow/obj/Debug/net7.0/TireGripWindow.GeneratedMSBuildEditorConfig.editorconfig
+/home/phil/Development/OpenSimHud/TireGripWindow/obj/Debug/net7.0/TireGripWindow.AssemblyInfoInputs.cache
+/home/phil/Development/OpenSimHud/TireGripWindow/obj/Debug/net7.0/TireGripWindow.AssemblyInfo.cs
+/home/phil/Development/OpenSimHud/TireGripWindow/obj/Debug/net7.0/TireGripWindow.csproj.CoreCompileInputs.cache
+/home/phil/Development/OpenSimHud/TireGripWindow/obj/Debug/net7.0/TireGripWindow.csproj.CopyComplete
+/home/phil/Development/OpenSimHud/TireGripWindow/obj/Debug/net7.0/TireGripWindow.dll
+/home/phil/Development/OpenSimHud/TireGripWindow/obj/Debug/net7.0/refint/TireGripWindow.dll
+/home/phil/Development/OpenSimHud/TireGripWindow/obj/Debug/net7.0/TireGripWindow.pdb
+/home/phil/Development/OpenSimHud/TireGripWindow/obj/Debug/net7.0/ref/TireGripWindow.dll

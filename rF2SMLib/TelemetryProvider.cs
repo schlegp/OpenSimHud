@@ -80,17 +80,17 @@ namespace rF2SMLib
             ).ToList();
             var playerId = scoring.mVehicles.FirstOrDefault(x => x.mIsPlayer != 0).mID;
             var playerData = telemetry.mVehicles.FirstOrDefault(x => x.mID == playerId);
-            var pedalData = new PedalData()
+            var pedalData = new InputData()
             {
                 Throttle = playerData.mUnfilteredThrottle,
                 BrakePedal = playerData.mUnfilteredBrake,
                 Clutch = playerData.mUnfilteredClutch,
-                SteeringAngle = playerData.mUnfilteredSteering
+                GripData = playerData.mWheels.Select(x => x.mGripFract).ToArray(),
             };
             var result = new VehicleWrapper()
             {
                 Vehicles = carData,
-                PedalData = pedalData
+                InputData = pedalData
             };
             return result;
         }

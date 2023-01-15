@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadarWindow", "RadarWindow\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedalWindow", "PedalWindow\PedalWindow.csproj", "{AF69A583-F828-4180-8F8E-07FCE29D101A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TireGripWindow", "TireGripWindow\TireGripWindow.csproj", "{67D73C66-C284-483F-9A4C-89F710E30DD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{AF69A583-F828-4180-8F8E-07FCE29D101A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF69A583-F828-4180-8F8E-07FCE29D101A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF69A583-F828-4180-8F8E-07FCE29D101A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D73C66-C284-483F-9A4C-89F710E30DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D73C66-C284-483F-9A4C-89F710E30DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D73C66-C284-483F-9A4C-89F710E30DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D73C66-C284-483F-9A4C-89F710E30DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -10,12 +10,14 @@ using PedalWindow.ViewModels;
 using PedalWindow.Views;
 using rF2SMLib;
 using rF2SMLib.DTOs;
+using TireGripWindow.ViewModels;
+using TireGripWindow.Views;
 
 namespace OpenSimHud.Views;
 
 public partial class MainWindow : Window
 {
-    private PedalData _currentPedalData = new PedalData();
+    private InputData _currentInputData = new InputData();
     private readonly TelemetryReceiver _receiver;
     
     private readonly PedalDisplayViewModel _pedalDisplayViewModel;
@@ -23,6 +25,9 @@ public partial class MainWindow : Window
 
     private readonly RadarWindow.ViewModels.RadarDisplayViewModel _radarDisplayViewModel;
     private readonly RadarWindow.Views.RadarDisplay _radarDisplay;
+
+    private readonly TireGripViewModel _tireGripViewModel;
+    private readonly TireGripDisplay _tireGripDisplay;
     
     private readonly BackgroundWorker _backgroundWorker;
     
@@ -52,15 +57,20 @@ public partial class MainWindow : Window
         _radarDisplay = new RadarWindow.Views.RadarDisplay(_radarDisplayViewModel);
         _radarDisplay.DataContext = _radarDisplayViewModel;
 
+        _tireGripViewModel = new TireGripViewModel();
+        _tireGripDisplay = new TireGripDisplay(_tireGripViewModel);
+        _tireGripDisplay.DataContext = _tireGripDisplay;
+
         InitializeComponent();
 
         _pedalDisplay.Show();
         _radarDisplay.Show();
+        _tireGripDisplay.Show();
     }
     private void GetTelemetry(object? sender, DoWorkEventArgs e)
     {
         _cars = _receiver.GetNextCarTelemetry().Item1;
-        _currentPedalData = _receiver.GetNextCarTelemetry().Item2;
+        _currentInputData = _receiver.GetNextCarTelemetry().Item2;
     }
     
     private void RenderCycle(object? sender, EventArgs e)
@@ -71,10 +81,15 @@ public partial class MainWindow : Window
         }
         
         // Update Pedals
-        _pedalDisplayViewModel.BrakeValue = _currentPedalData.BrakePedal * _pedalDisplay.Height;
-        _pedalDisplayViewModel.ThrottleValue = _currentPedalData.Throttle * _pedalDisplay.Height;
+        _pedalDisplayViewModel.BrakeValue = _currentInputData.BrakePedal * _pedalDisplay.Height;
+        _pedalDisplayViewModel.ThrottleValue = _currentInputData.Throttle * _pedalDisplay.Height;
 
         _radarDisplayViewModel.Cars = _cars;
+
+        _tireGripViewModel.TireGripFl = _currentInputData.GripData[(int)rFactor2Constants.rF2WheelIndex.FrontLeft];
+        _tireGripViewModel.TireGripFr = _currentInputData.GripData[(int)rFactor2Constants.rF2WheelIndex.FrontRight];
+        _tireGripViewModel.TireGripRl = _currentInputData.GripData[(int)rFactor2Constants.rF2WheelIndex.RearLeft];
+        _tireGripViewModel.TireGripRr = _currentInputData.GripData[(int)rFactor2Constants.rF2WheelIndex.RearRight];
     }
 
     
